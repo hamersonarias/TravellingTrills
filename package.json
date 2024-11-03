@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "concurrently \"npm run test\" \"next build\"",
-    "start": "concurrently \"npm run test\" \"next start\"",
+    "build": "next build",
+    "start": "next start",
     "test": "node src/Data/load.data.js",
     "lint": "next lint"
   },
